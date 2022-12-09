@@ -6,6 +6,7 @@ public class Monitor {
 
 
     public static void main(String[] args) {
+        String t;
         int number1; // variable declaration
         int number2;
         number1 = 45; // assignment
