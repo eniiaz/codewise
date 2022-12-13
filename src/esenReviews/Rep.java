@@ -3,6 +3,7 @@ package esenReviews;
 public class Rep {
 
     public static void main(String[] args) {
+
         String sentence = "I love playing";
 
 
@@ -18,7 +19,6 @@ public class Rep {
 
         // charAt => takes integer and returns char
         // indexOf => takes char and return integer
-
 
     }
 }
