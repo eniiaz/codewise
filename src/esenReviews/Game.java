@@ -6,6 +6,10 @@ import java.util.Scanner;
 public class Game {
 
     public static void main(String[] args) {
+
+        String name = "James";
+        name.length();
+
         for (int i = 0; i < 5; i++){
             // code
             Random random = new Random();
