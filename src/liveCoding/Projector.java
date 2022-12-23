@@ -9,6 +9,7 @@ public class Projector {
             }
             System.out.println(i);
         }
+
         System.out.println();
         charAppears("I want a vacation!", 'a');
     }
