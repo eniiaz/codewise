@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Student {
 
-    private String fullName;
+    public String fullName;
     private String username;
     private String email;
     private String password;
