@@ -6,5 +6,4 @@ public class Rap {
         Mock.start();
         Mock.technicalQuestion();
     }
-
 }
