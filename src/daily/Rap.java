@@ -1,4 +1,4 @@
-package arrays;
+package daily;
 
 public class Rap {
 

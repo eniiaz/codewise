@@ -1,6 +1,6 @@
 package variables;
 
-public class Cup {
+ class Cup {
 
     public static void main(String[] args) {
 
