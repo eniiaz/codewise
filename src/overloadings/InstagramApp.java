@@ -1,8 +1,12 @@
 package overloadings;
 
+import oopRecap.Microphone;
+
 public class InstagramApp {
 
     public static void main(String[] args) {
+        Microphone microphone = new Microphone();
+
 
         InstagramUser user1 = new InstagramUser("James Bond", "jb2022", "JB2022!");
 

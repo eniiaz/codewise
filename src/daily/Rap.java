@@ -7,3 +7,11 @@ public class Rap {
         Mock.technicalQuestion();
     }
 }
+// "Happy new 2023!" => 7
+// loop from 0 to length
+// get each char
+// use if else and isDigit method
+// get into if statement
+// parse int
+// then sum
+// in the end convert to string and return
