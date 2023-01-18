@@ -6,9 +6,10 @@ public class CodingBootcamp extends School{
 
     public void teachCoding(){
         System.out.println("Coding");
+
     }
 
-    @Override
+@Override
     public IPhone getPhone(){
         return null;
     }
