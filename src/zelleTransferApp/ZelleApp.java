@@ -6,6 +6,9 @@ public class ZelleApp {
     public static void main(String[] args) {
 
         ZelleAccount user1 = new ZelleAccount("Kate Johnson", "(630)-220-8228", "Chase");
+        if (!user1.isValidPhoneNumber){
+            user1 = null;
+        }
         user1.depositMoney(2000);
         user1.setPhoneNumber("+17738825153");
         user1.depositMoney(2000);

@@ -7,8 +7,10 @@ public class Learning {
         cb.name = "Codewise";
         cb.address = "Chicago";
 
-        cb.studentEnroll();
-        cb.teach();
+        School school = new CodingBootcamp();
+        ((CodingBootcamp)school).teachCoding();
+        school.teach();
+
 
     }
 }
