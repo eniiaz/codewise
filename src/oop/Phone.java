@@ -27,4 +27,8 @@ public class Phone extends Object{
         System.out.println("Hang up phone");
     }
 
+    public void hello(){
+        System.out.println("Hey yall!");
+    }
+
 }

@@ -4,7 +4,7 @@ public class Rap {
 
     public static void main(String[] args) {
         Mock.start();
-        Mock.technicalQuestion();
+        Mock.softSkillsQuestion();
     }
 }
 // "Happy new 2023!" => 7

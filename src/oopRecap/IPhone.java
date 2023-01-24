@@ -12,4 +12,6 @@ public class IPhone extends SmartPhone implements WaterResistable{
     public void keepTheDeviceProtected() {
         System.out.println("We keeping it clean");
     }
+
+
 }
