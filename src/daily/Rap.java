@@ -1,10 +1,13 @@
 package daily;
 
+import java.util.Collections;
+
 public class Rap {
 
     public static void main(String[] args) {
         Mock.start();
-        Mock.softSkillsQuestion();
+        Mock.technicalQuestion();
+
     }
 }
 // "Happy new 2023!" => 7

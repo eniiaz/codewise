@@ -19,4 +19,15 @@ public class SmartPhone extends Phone {
         System.out.println("Smartphone is taking a picture");
     }
 
+
+    public static void welcome(){
+        System.out.println("Welcome in Smartphone");
+    }
+
+    // Static method cannot be overriden.
+    // However, child class can create its own version for inherited static method.
+    // This is called method hiding. The original inherited static method is now hidden
+    // in child class.
+    // We don't use any annotation for this. And @override doesn't work for this.
+
 }

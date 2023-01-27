@@ -5,6 +5,7 @@ import oop.Phone;
 public class CodingBootcamp extends School{
 
     public void teachCoding(){
+
         System.out.println("Coding");
 
     }

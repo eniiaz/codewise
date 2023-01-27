@@ -31,4 +31,8 @@ public class Phone extends Object{
         System.out.println("Hey yall!");
     }
 
+    public static void welcome(){
+        System.out.println("Welcome static method in Phone class");
+    }
+
 }

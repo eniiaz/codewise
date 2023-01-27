@@ -1,9 +1,13 @@
 package oopRecap;
 
+import oop.Phone;
+
 public class People {
 
     public static void main(String[] args) {
         Home h1 = new Apartment();
+        SmartPhone.welcome();
+        Phone.welcome();
         // The purpose of the line 6,
         // is to achieve abstraction in Java.
         // Abstraction in Java is hiding the impelemntation of

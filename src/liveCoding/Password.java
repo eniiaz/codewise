@@ -13,7 +13,6 @@ public class Password {
         savePassword("Codewise");
         System.out.println(passwords);
         int age;
-
     }
 
     public static void savePassword(String password){
@@ -21,9 +20,6 @@ public class Password {
             passwords.add(password);
         }
     }
-
-
-
 
     public static boolean hasNumber(String password){
         boolean hasNumber = false;
@@ -36,5 +32,4 @@ public class Password {
         }
         return hasNumber;
     }
-
 }
