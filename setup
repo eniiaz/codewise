@@ -1,0 +1,14 @@
+public class Apple {
+
+    public static void main(String[] args) throws InterruptedException {
+        System.out.println("Hi");
+
+        System.setProperty("webdriver.chrome.driver","/Users/esen/Desktop/chromedriver");
+
+        WebDriver chrome = new ChromeDriver();
+        chrome.get("https://google.com");
+        System.out.println(chrome.getTitle());
+        Thread.sleep(3000);
+        chrome.quit();
+    }
+}
